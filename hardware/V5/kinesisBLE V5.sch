@@ -3416,8 +3416,8 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
 <part name="R12" library="SparkFun-Resistors" deviceset="330OHM" device="-HORIZ-1/10W-5%" value="330"/>
 <part name="C3" library="SparkFun-Capacitors" deviceset="0.1UF" device="-KIT-EZ-50V-20%" value="0.1uF"/>
 <part name="MCP23S17" library="microchip" library_urn="urn:adsk.eagle:library:294" deviceset="MCP23S17" device="SP" package3d_urn="urn:adsk.eagle:package:20799/2"/>
-<part name="JPR" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X10" device="" package3d_urn="urn:adsk.eagle:package:22406/2"/>
-<part name="JPL" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X10" device="" package3d_urn="urn:adsk.eagle:package:22406/2"/>
+<part name="JPR" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X10" device="" package3d_urn="urn:adsk.eagle:package:22406/2" value="10"/>
+<part name="JPL" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X10" device="" package3d_urn="urn:adsk.eagle:package:22406/2" value="10"/>
 </parts>
 <sheets>
 <sheet>
@@ -4258,14 +4258,6 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
 <label x="129.54" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="USB"/>
-<wire x1="127" y1="30.48" x2="139.7" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="30.48" x2="139.7" y2="30.48" width="0.1524" layer="91"/>
-<label x="142.24" y="33.02" size="1.778" layer="95"/>
-</segment>
-</net>
 </nets>
 </sheet>
 </sheets>
@@ -4276,17 +4268,8 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
 <approved hash="106,1,167.64,38.1,N$2,,,,,"/>
 <approved hash="106,1,167.64,40.64,N$3,,,,,"/>
 <approved hash="106,1,167.64,48.26,N$6,,,,,"/>
-<approved hash="106,1,170.18,-2.54,N$19,,,,,"/>
-<approved hash="106,1,43.18,7.62,N$21,,,,,"/>
-<approved hash="106,1,170.18,-15.24,N$24,,,,,"/>
 <approved hash="106,1,-35.56,40.64,N$39,,,,,"/>
 <approved hash="106,1,-35.56,38.1,N$40,,,,,"/>
-<approved hash="106,1,15.24,-53.34,N$54,,,,,"/>
-<approved hash="106,1,20.32,-53.34,N$55,,,,,"/>
-<approved hash="106,1,17.78,-53.34,N$56,,,,,"/>
-<approved hash="106,1,106.68,-33.02,N$77,,,,,"/>
-<approved hash="106,1,109.22,-33.02,N$78,,,,,"/>
-<approved hash="106,1,111.76,-33.02,N$79,,,,,"/>
 <approved hash="113,1,137.482,-57.15,LED1,,,,,"/>
 <approved hash="113,1,147.642,-57.15,LED2,,,,,"/>
 <approved hash="113,1,157.802,-57.15,LED3,,,,,"/>

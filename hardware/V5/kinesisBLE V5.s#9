@@ -3849,15 +3849,6 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
 <label x="76.2" y="40.64" size="1.778" layer="95"/>
 <pinref part="U$1" gate="G$1" pin="3V@2"/>
 </segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="USB"/>
-<pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="127" y1="30.48" x2="139.7" y2="30.48" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="USB" class="0">
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
 <pinref part="R5" gate="G$1" pin="1"/>
@@ -3867,10 +3858,12 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
 <junction x="149.86" y="27.94"/>
 <label x="154.94" y="27.94" size="1.778" layer="95"/>
 </segment>
+</net>
+<net name="N$5" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="30A6"/>
-<wire x1="127" y1="15.24" x2="134.62" y2="15.24" width="0.1524" layer="91"/>
-<label x="129.54" y="15.24" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="USB"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="127" y1="30.48" x2="139.7" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BLUE" class="0">
@@ -3880,9 +3873,9 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
 <label x="91.44" y="63.5" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="A3"/>
-<wire x1="83.82" y1="27.94" x2="76.2" y2="27.94" width="0.1524" layer="91"/>
-<label x="76.2" y="27.94" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="A5"/>
+<wire x1="83.82" y1="22.86" x2="76.2" y2="22.86" width="0.1524" layer="91"/>
+<label x="76.2" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="EN" class="0">
@@ -3944,9 +3937,9 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
 <label x="137.16" y="-38.1" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="A5"/>
-<wire x1="83.82" y1="22.86" x2="76.2" y2="22.86" width="0.1524" layer="91"/>
-<label x="76.2" y="22.86" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="A3"/>
+<wire x1="83.82" y1="27.94" x2="76.2" y2="27.94" width="0.1524" layer="91"/>
+<label x="76.2" y="27.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="KEY" class="0">
