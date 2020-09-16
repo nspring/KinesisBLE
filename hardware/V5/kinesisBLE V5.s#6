@@ -4083,6 +4083,14 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
 <label x="129.54" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="USB"/>
+<wire x1="127" y1="30.48" x2="139.7" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="30.48" x2="139.7" y2="30.48" width="0.1524" layer="91"/>
+<label x="142.24" y="33.02" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
