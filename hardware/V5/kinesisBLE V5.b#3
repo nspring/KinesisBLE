@@ -11,7 +11,7 @@
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="yes"/>
 <layer number="6" name="Route6" color="1" fill="8" visible="no" active="yes"/>
 <layer number="7" name="Route7" color="4" fill="8" visible="no" active="yes"/>
@@ -323,10 +323,11 @@ BUTTON</text>
 <wire x1="110.5358" y1="41.545" x2="110.9676" y2="41.1132" width="0.1524" layer="21"/>
 <wire x1="110.9676" y1="41.1132" x2="109.5452" y2="41.1132" width="0.1524" layer="21"/>
 <text x="21.2656" y="33.691" size="2" layer="21" font="vector" rot="R180" align="center-left">EN</text>
-<dimension x1="17.526" y1="24.638" x2="104.394" y2="24.638" x3="60.96" y3="23.4188" textsize="1.778" layer="1"/>
-<dimension x1="60.96" y1="29.972" x2="104.394" y2="29.718" x3="82.66955625" y3="28.572075" textsize="1.778" layer="1" unit="inch"/>
-<rectangle x1="24.638" y1="80.264" x2="52.832" y2="85.852" layer="39"/>
+<rectangle x1="24.638" y1="80.264" x2="52.832" y2="85.852" layer="41"/>
+<rectangle x1="24.638" y1="80.518" x2="52.832" y2="86.106" layer="39"/>
+<rectangle x1="24.638" y1="80.264" x2="52.832" y2="85.852" layer="43"/>
 <rectangle x1="24.638" y1="80.264" x2="52.832" y2="85.852" layer="40"/>
+<rectangle x1="24.638" y1="80.264" x2="52.832" y2="85.852" layer="42"/>
 </plain>
 <libraries>
 <library name="adafruit">
